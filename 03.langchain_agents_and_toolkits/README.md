@@ -50,8 +50,8 @@ Instead of simply running `.invoke()`, we use `.iter()` in the code to slow down
 
 ---
 
-## Part C: Agentless Prompt Chaining Workflows (`03a` - `03g`)
-These seven scripts demonstrate how to handle multi-step reasoning natively using the LangChain Expression Language (LCEL) without relying on autonomous Agent Executors:
+## Part C: Agentless Prompt Chaining Workflows (`03a` - `03i`)
+These nine scripts demonstrate how to handle multi-step reasoning natively using the LangChain Expression Language (LCEL) without relying on autonomous Agent Executors:
 
 - `03a_information_processing.py`: Sequential transformations from raw extraction to summarization.
 - `03b_complex_query_answering.py`: Breaking down questions, researching parts, and synthesizing.
@@ -60,6 +60,8 @@ These seven scripts demonstrate how to handle multi-step reasoning natively usin
 - `03e_conversational_state.py`: Maintaining conversational memory loops and multi-persona state manually.
 - `03f_code_generation.py`: Iterative process of pseudocode, drafting, LLM static analysis, and refinement.
 - `03g_multimodal_reasoning.py`: Orchestrating image OCR labeling mapping against tabular data limits.
+- `03h_routing_example.py`: Dynamically routing inputs to specific processing branches based on content classification.
+- `03i_parallelization_example.py`: Executing multiple independent tasks concurrently and synthesizing their results.
 
 ---
 

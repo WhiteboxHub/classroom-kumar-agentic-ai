@@ -65,6 +65,23 @@ These nine scripts demonstrate how to handle multi-step reasoning natively using
 
 ---
 
+## Part D: Reflection and Tool Execution Patterns (`03j` - `03n`)
+- `03j_reflection_example.py`: Demonstrates the iterative self-correction loop where an autonomous agent functionally receives critiques from a secondary context pipeline prior to resolving code. 
+- `03k_tool_google_search.py`: Simulates establishing real-time Web Search connectors into an `AgentExecutor` environment mapping queries organically.
+- `03l_tool_code_execution.py`: Displays standard isolation vectors securely utilizing python simulation sandbox executions over math/code requests.
+- `03m_tool_api_call.py`: Exposes a RESTful data integration pattern where endpoints map back native JSON contexts directly into the runtime evaluation loop.
+- `03n_tool_db_query.py`: Transforms generalized SQL extraction queries accurately reflecting database query parsing vectors securely inside agent frameworks.
+
+---
+
+## Part E: Multi-Agent Orchestration Architectures (`04a` - `04d`)
+- `04a_network_decentralized.py`: Peer-to-peer topologies mapping distinct sister agents universally via pure tooling arrays dynamically interlinking context flows.
+- `04b_supervisor_model.py`: Implementing central star-topology command pipelines. An overarching supervisor directs exclusively mapping domain-scoped operations strictly outwardly.
+- `04c_supervisor_as_tool.py`: Sub-worker escalation pathways where the worker retains full operational control, explicitly reaching upwards exclusively conditionally mimicking Oracle API paths.
+- `04d_hierarchical_model.py`: Multi-stage enterprise-scale deployment. Top-level Directors natively passing recursive task payloads mapping into underlying management abstraction layer agents uniformly.
+
+---
+
 ## Running the Examples
 
 1. Navigate to the folder and install dependencies:

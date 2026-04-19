@@ -15,8 +15,8 @@ This folder demonstrates the modern "standard way" to connect Large Language Mod
 5. **Feed result back to model:**
    The executed code result is formally appended back to context using the dedicated `"role": "tool"`. The LLM naturally recognizes this external metadata injection, interpolates the context, and derives its conclusive answer for the end-user.
 
-## Files
-- `02.openai_function_calling.py`: Contains the logic demonstrating native Function Calling with the exact same two functions from previous classroom modules.
+## Explaining The Files
+- `02.openai_function_calling.py`: High Level Concept — Eliminating fragile string-matching loops by harnessing standard API metadata bindings. Teaches native JSON schema injection (`tools=[...]`) so the LLM implicitly triggers and streams robust `tool_calls` payloads securely back to local environments mapping dynamic execution safely.
 - `requirements.txt`: Python package requirements.
 
 ## How to Run

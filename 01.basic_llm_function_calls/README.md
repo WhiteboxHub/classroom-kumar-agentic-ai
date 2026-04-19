@@ -13,9 +13,9 @@ This folder contains a simple classroom example demonstrating how early agentic 
 4. **Iterative Feedback Loop:** 
    The result from the environment is appended back to the conversation stack so the LLM receives the outcome and reasons the next steps towards answering the query.
 
-## Files
-- `01.llm_function_call_in_prompt.py`: The single self-contained application file executing this loop.
-- `requirements.txt`: Python package requirements.
+## Explaining The Files
+- `01.llm_function_call_in_prompt.py`: High Level Concept — The foundational baseline demonstrating how early iteration language models interact purely with raw textual tags implicitly mapped into functional Python logic. Focuses on the manual `eval()` mapping without abstracted APIs.
+- `requirements.txt`: Explicit Python package requirements.
 
 ## How to Run
 
